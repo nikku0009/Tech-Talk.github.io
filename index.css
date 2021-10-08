@@ -567,10 +567,15 @@ filter: blur(500px);
   border:0;
   border-bottom:1px solid #555;  
   background:transparent;
-  width:100%;
-  padding:8px 0 5px 0;
+  width:400px;
+  padding:8px;
   font-size:16px;
-  color:#fff;
+  background:#FAFAFA;
+  padding: 10px;
+  border-radius:20px;
+  position: relative;
+  top: 50px;
+  left: 130px;
 }
 .input-container input:focus{ 
  	 border:none;	
@@ -584,21 +589,24 @@ filter: blur(500px);
 	background: linear-gradient(90deg, #667EEA 0%, #764BA2 100%);
 	outline: none;
 	text-align: center;
-    border: 0;
-    color: #fff;
+  border: 0;
+  color: #fff;
 	padding:10px 20px;
 	text-transform:uppercase;
 	margin-top:50px;
 	border-radius:20px;
 	cursor:pointer;
 	position:relative;
-	top: 50px;
-	left: 285px;
+	top: 10px;
+	left: 440px;
+	height: 40px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
 }
 
-.btn:hover{
-	background: white;
-	color: black;
+.btn:hover{  
+  background: linear-gradient(90deg, #FF5858 0%, #F09819 100%);
+	color: white;
 }
 .input-container input:focus ~ label,
 .input-container input:valid ~ label{
