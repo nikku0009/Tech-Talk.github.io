@@ -400,7 +400,7 @@ filter: blur(500px);
     cursor: pointer;
     position: relative;
     z-index: 0;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
 }
 
@@ -427,10 +427,12 @@ filter: blur(500px);
 
 .glow-on-hover:active:after {
     background: transparent;
+    border-radius: 20px;
 }
 
 .glow-on-hover:hover:before {
     opacity: 1;
+    border-radius: 20px;
 }
 
 .glow-on-hover:after {
@@ -442,7 +444,7 @@ filter: blur(500px);
     background: #111;
     left: 0;
     top: 0;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 @keyframes glowing {
@@ -482,7 +484,8 @@ filter: blur(500px);
   height: 400px;
   position: relative;
   transition: all 5s ease-in-out;
-  border-radius: 30px;
+  border-radius: 20px;
+  top: 70px;
 
 }
 
@@ -490,7 +493,7 @@ filter: blur(500px);
   color: #FFFFFF;;
   font-size: 90px;
   text-align: center;
-  margin: 0 auto;
+  margin: 10px auto;
   padding-top: 30px;
 }
 .popup .close {
@@ -520,7 +523,9 @@ filter: blur(500px);
 	height: 50%;
 	background: linear-gradient(90deg, #667EEA 0%, #764BA2 100%);
 	box-shadow: 17px 40px 50px rgba(0, 0, 0, 0.25);
-	border-radius: 0px;
+	border-radius: 20px;
+	position: relative;
+	top: 20px;
 }
 
 .circle-empty2{
@@ -589,19 +594,20 @@ filter: blur(500px);
 	background: linear-gradient(90deg, #667EEA 0%, #764BA2 100%);
 	outline: none;
 	text-align: center;
-  border: 0;
+  
   color: #fff;
 	padding:10px 20px;
 	text-transform:uppercase;
 	margin-top:50px;
 	border-radius:20px;
+	border: 0;
 	cursor:pointer;
 	position:relative;
 	top: 10px;
 	left: 440px;
 	height: 40px;
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 
 .btn:hover{  
