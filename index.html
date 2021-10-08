@@ -9,11 +9,27 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<script type="text/javascript">
+
+		function myFunction() {
+  		confirm("This page is about to redirect you to a new page!");
+		}
+
+		function myFunction1() {
+  		document.getElementById("myBtn").style.left = "100px";}
+
+		
+		function change_text(){
+    	document.getElementById("notified").innerHTML = "Notification Successfully Sent On Mail";
+}
+		
+	</script>
+	
 </head>
 <body>
 	<div class="topnav" id="navbar">
 		<img src="images/ucdlogo.png">
-		<a href="#">About Us</a>
+		<a href="#" target="_blank">About Us</a>
 	</div>
 	<div class="hero clear">
 		<h1>Tech Talk</h1>
@@ -26,7 +42,7 @@
 
 	<div class="get-notified clear">
 			<div>
-			<h5><a href="#">Get Notified About New Sessions</a></h5>				
+			<h5><a href="#" id="notified" onclick="change_text()" class="glow-on-hover" type="button" onclick="myFunction1()"> Get Notified About New Sessions</a></h5>				
 			</div>					
 		</div>		
 		<hr width="1440px">
@@ -70,7 +86,7 @@
 
 		<div class="session1">
 			<div> 
-			<a href="#"><img src="images/Video Tile1.png" class="img1"></a>
+			<a href="#" target="_blank"><img src="images/Video Tile1.png" class="img1"></a>
 			<h2 class="right">Session 1: Cloud Computing <hr></h2>
 			<div class="desc1">
 				<p>
@@ -85,7 +101,7 @@
 
 		<div class="session2">
 			<div> 
-			<a href="#"><img src="images/Video Tile 2.png" class="img2"></a>
+			<a href="#" target="_blank"><img src="images/Video Tile 2.png" class="img2"></a>
 			<h2 class="right">Session 2: Automation <hr ></h2>
 			<div class="desc2">
 				<p>
@@ -100,7 +116,7 @@
 
 		<div class="session3">
 			<div> 
-			<a href="#"><img src="images/Video Tile 2.png" class="img3"></a>
+			<a href="#" target="_blank"><img src="images/Video Tile 2.png" class="img3"></a>
 			<h2 class="right">Session 3: Blockchain <hr ></h2>
 			<div class="desc3">
 				<p>
@@ -128,15 +144,15 @@
 			<h2>Stay Tuned For More</h2>
 		</div>
 
-		<a href="#"><img src="images/instagram.png" class="instagram"></a>
-			<a href="#"><img src="images/twitter.png" class="twitter"></a>
-			<a href="#"><img src="images/linkedin.png" class="linkedin"></a>
-			<a href="#"><img src="images/youtube.png" class="youtube"></a>
+		<a href="#" target="_blank"><img src="images/instagram.png" class="instagram"></a>
+			<a href="#" target="_blank"><img src="images/twitter.png" class="twitter"></a>
+			<a href="#" target="_blank"><img src="images/linkedin.png" class="linkedin"></a>
+			<a href="#" target="_blank"><img src="images/youtube.png" class="youtube"></a>
 
 		<div class="bottomnav">
 			<img src="images/ucdlogo.png">
 
-				<a href="#" id="nav-discord">Join Our Discord Community</a>			
+				<a href="#" id="nav-discord" onclick="myFunction()">Join Our Discord Community</a>			
 			<a href="#">Privacy</a>
 			<a href="#">About</a>
 			
