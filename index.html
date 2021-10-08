@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -21,10 +21,13 @@
 
 		
 		function change_text(){
-    	document.getElementById("notified").innerHTML = "Notification Successfully Sent On Mail";
-}
+    	document.getElementById("notified").innerHTML = "Notification Successfully Sent On Mail";}
+
+
+       
 		
 	</script>
+	
 	
 </head>
 <body>
@@ -43,7 +46,7 @@
 
 	<div class="get-notified clear">
 			<div>
-			<h5><a href="#" id="notified" onclick="change_text()" class="glow-on-hover" type="button" onclick="myFunction1()"> Get Notified About New Sessions</a></h5>				
+			<h5><a href="#popup1" id="notified" onclick="change_text()" class="glow-on-hover" type="button" onclick="myFunction1()"> Get Notified About New Sessions</a></h5>				
 			</div>					
 		</div>		
 		<hr width="1440px">
@@ -60,6 +63,48 @@
 			</div>			
 		</div><!--session-info-->
 		</div>	
+
+		<!--------------------------------POPUP---------------------------------------------------->
+
+
+
+		<div id="popup1" class="overlay">
+			<div class="popup">
+				<div class="ping-me">
+					<h2>Ping Me !</h2>					
+				</div>
+				
+				<a class="close" href="#" id="close-btn"  onClick="hide('popDiv')" >&times;</a>
+					<div class="box">
+
+		<form>
+		
+		<div class="input-container">		
+			<input type="mail" required=""/>
+			<label>Email</label>
+		</div>
+			<button type="button" class="btn">Sign Me Up !</button>
+				</form>	
+		</div>
+						
+
+
+
+
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+		<!------------------------------------------------------------------------------------------>
+
 
 		<div>
 			<div class="circle-empty" id="circle1"></div>
